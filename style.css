@@ -1,0 +1,44 @@
+@media (min-width: 1200px) {
+  /*Extra large Device*/
+  div {
+    background: red;
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /*large Device*/
+  div {
+    background: green;
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /*Medium Device*/
+  div {
+    background: blue;
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  /* Small Device*/
+  div {
+    background: greenyellow;
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 575px) {
+  /*Extra Small Device*/
+  div {
+    background: goldenrod;
+    width: 200px;
+    height: 200px;
+  }
+}
